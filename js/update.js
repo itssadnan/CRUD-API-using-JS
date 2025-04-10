@@ -25,11 +25,13 @@ form.addEventListener('submit', async (e) => {
     job: document.getElementById('job').value
   };
 
-  const res = await updateUserDetails(userId,updatedData);
-
-
-
-  console.log(res.statusText);
+  const res = await fetch(`https://reqres.in/api/users/${userId}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(updatedData)
+  });
 
   if (res.ok) {
     saveBtn.textContent = 'Saved!';
