@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Update User</title>
+  <link rel="stylesheet" href="styles/updateStyles.css" />
+</head>
+<body>
+  <div class="update-container">
+    <h2>Update User</h2>
+    <form id="updateForm">
+      <label>First Name</label>
+      <input type="text" id="firstName" required />
+      <label>Last Name</label>
+      <input type="text" id="lastName" required />
+      <label>Email</label>
+      <input type="email" id="email" required />
+      <label>Job</label>
+      <input type="text" id="job" />
+      <button type="submit" id="saveBtn">Save</button>
+    </form>
+  </div>
+
+  <script src="js/update.js"></script>
+  <script src="js/api.js"></script>
+</body>
+</html>

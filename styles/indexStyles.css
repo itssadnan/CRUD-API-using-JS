@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .user-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .card {
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin: 0.5rem 0 0;
+  }
+  
+  .card p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .card-buttons {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .card-buttons button {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .card-buttons .delete {
+    background: #ff4d4d;
+    color: white;
+  }
+  
+  .card-buttons .edit {
+    background: #007bff;
+    color: white;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0,0.5);
+    display: grid;
+    place-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .confirm-btn {
+    background: #dc3545;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .cancel-btn {
+    background: #6c757d;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+  }
+  

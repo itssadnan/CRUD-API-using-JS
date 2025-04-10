@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .details-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .user-details img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .user-details h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .user-details p {
+    margin: 0.3rem 0;
+    color: #333;
+  }
+  
+  .back-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

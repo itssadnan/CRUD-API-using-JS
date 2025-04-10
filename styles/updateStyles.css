@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #eef2f3;
+  }
+  
+  .update-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 0.7rem;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button.saved {
+    background: #6c757d;
+  }
+  
